@@ -454,84 +454,81 @@ padding-left: 20px;
         height: 30vh;
     }
 }
-/*login*/
+/* login page */
 
-.wrapper{
-
-   position: relative;
-    width: 400px;
-    height: 440px;
-    background: transparent;
-    border: 2px solid rgba(49, 49, 49, 0.5);
-    border-radius: 20px;
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 450px;
-    top: 35px;
-    bottom: px;
-}
-.wrapper .form-box{
-    width: 100%;
-    padding: 40px;
-
-}
-.form-box h2{
-    font-size: 2em;
-    color: #162938;
-    text-align: center;
-}
-.input-box{
-    position: relative;
-    width: 100%;
-    height: 50px;
-    border-bottom: 2px solid #162938;
-    margin: 30px 0;
-
-}
-.input-box label{
-    position: absolute;
-    top: 50%;
-    left: 5px;
-    transform: translateY(-50%);
-    font-size: 1em;
-    color: #162938;
-    font-weight: 500;
-    pointer-events: none;
-    transition: .5s;
-}
-.input-box input:focus~label,
-.input-box input:valid~label{
-    top: -5px;
-    transition: .5s;
-}
-.input-box input{
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    font-size: 1em;
-    color: #162938;
-    font-weight: 600;
-}
-.input-box .icon{
-    position: absolute;
-    right: 8px;
-    font-size: 2rm;
-    color: #162938;
-    line-height: 57px;
-}
-.remember-forgot{
-    color: #000;
+.signup-box{
+    width: 360px;
+    height: 620px;
     margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 3px;
 }
-.remember-forgot a{
-    margin-left: 69px;
-    color: #000;
+
+.login-box{
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: #fff;
+
 }
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="button"]{
+     width: 320px;
+     height: 35px;
+     margin-top: 20px;
+     border: none;
+     background-color: #088178;
+     color: #fff;
+     font-size: 15px;
+
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.para-2{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-top: -10px;
+
+}
+.para-2 a{
+    color: #088178;
+}
+
+
 
 /* shop page */
 
