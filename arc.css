@@ -461,16 +461,17 @@ padding-left: 20px;
     height: 620px;
     margin: auto;
     margin-top: 20px;
-    background-color: white;
+    background-color: #cdd4f8;
     border-radius: 3px;
 }
 
 .login-box{
     width: 360px;
-    height: 280px;
+    height: 330px;
     margin: auto;
+    margin-top: 20px;
     border-radius: 3px;
-    background-color: #fff;
+    background-color: #cdd4f8;
 
 }
 
